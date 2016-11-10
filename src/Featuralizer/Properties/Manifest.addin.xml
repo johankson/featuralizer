@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+	<Runtime>
+	</Runtime>
+	
+	<Extension path = "/MonoDevelop/Ide/Commands/Tools">
+        <Command id = "Featuralizer.FeaturalizerCommands.InsertFeature"
+                 _label = "Featuralizer"
+                 _description = "Insert a feature in your code"
+				 defaultHandler = "Featuralizer.FeaturalizerHandler" />
+    </Extension>
+
+    <Extension path = "/MonoDevelop/Ide/MainMenu/Tools">
+        <CommandItem id="Featuralizer.FeaturalizerCommands.InsertFeature" />
+    </Extension> 
+</ExtensionModel>

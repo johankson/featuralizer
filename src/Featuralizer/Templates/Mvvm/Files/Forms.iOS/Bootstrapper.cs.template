@@ -1,0 +1,24 @@
+﻿using Autofac;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace %IOSNAMESPACE%
+{
+    public static class Bootstrapper
+    {
+        public static void Initialize()
+        {
+            var builder = new ContainerBuilder();
+
+            // Common stuff
+            %NAMESPACE%.Bootstrapper.Initialize(builder);
+
+            // iOS specific
+			
+
+            // And build
+            Resolver.SetContainer(builder.Build());
+        }
+    }
+}

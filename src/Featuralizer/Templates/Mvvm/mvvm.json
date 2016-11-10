@@ -1,0 +1,4 @@
+﻿{
+	"name" : "Mvvm with autofac",
+	"description" : "Detects a Xamarin Forms project and applies MVVM and autofac to it.",
+}
